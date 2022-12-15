@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<h1 class="header__title">WHAT THE DOG ¿</h1>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__center">
+					<div class="page__img-input">
+<!--						-->
+<!--							<div name="img-input" type="file"></div>-->
+<!--						-->
+					</div>
+					<form class="page__btns" method="post" action="/uploading" enctype="multipart/form-data">
+						<div class="page__img-input-btn">
+							<label>
+								<input name="file" type="file" />
+								<span>Загрузить фото</span>
+							</label>
+						</div>
+						<div class="page__determinate-btn">
+							<a href="/uploading">
+								<button type="submit" class="page__styleDet" value="Upload">Определить породу</button>
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+	<script src="js/app.js"></script>
+</body>
+
+</html>
